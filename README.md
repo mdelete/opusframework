@@ -1,6 +1,6 @@
 # Opusframework
 
-A combined iOS and OSX framework integrating libopus, opusfile and libogg.
+A combined iOS and OSX framework integrating libopus, libopusfile and libogg.
 
 ## Prepare project
 
@@ -8,15 +8,15 @@ The sourcecode for libopus, opusfile and libogg is not included. Before firing u
 
 ### Downloading source
 
-For convience there is a download script included to be executed in the same directory as this readme. After this is successfully completed, the src directory will be populated and patched correctly.
+For convience there is a download script included to be executed in the same directory as this readme. After this is successfully completed, the src directories will be populated and patched correctly.
 
     $ sh download-files.sh
-    
-    
+
+
 ### Building the frameworks
 
 Now open the Opus.xcodeproj in the Opus directory. You should know your way form here.
-    
+
 ## External links
 
  * [Opus Interactive Audio Codec](http://opus-codec.org/)
