@@ -11,8 +11,8 @@
 		942045421B6CFE64003B1EF9 /* OpusOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 942045411B6CFE64003B1EF9 /* OpusOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		942045631B6CFF09003B1EF9 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 942045611B6CFF09003B1EF9 /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		942045641B6CFF09003B1EF9 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 942045611B6CFF09003B1EF9 /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		942045651B6CFF09003B1EF9 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 942045621B6CFF09003B1EF9 /* os_types.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		942045661B6CFF09003B1EF9 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 942045621B6CFF09003B1EF9 /* os_types.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		942045651B6CFF09003B1EF9 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 942045621B6CFF09003B1EF9 /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942045661B6CFF09003B1EF9 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 942045621B6CFF09003B1EF9 /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		942045691B6CFF17003B1EF9 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 942045671B6CFF17003B1EF9 /* bitwise.c */; };
 		9420456A1B6CFF17003B1EF9 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 942045671B6CFF17003B1EF9 /* bitwise.c */; };
 		9420456B1B6CFF17003B1EF9 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 942045681B6CFF17003B1EF9 /* framing.c */; };
@@ -403,8 +403,8 @@
 		942047E21B6D046E003B1EF9 /* repacketizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 942047C11B6D046E003B1EF9 /* repacketizer.c */; };
 		942047E31B6D046E003B1EF9 /* tansig_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047C21B6D046E003B1EF9 /* tansig_table.h */; };
 		942047E41B6D046E003B1EF9 /* tansig_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047C21B6D046E003B1EF9 /* tansig_table.h */; };
-		942047E61B6D0645003B1EF9 /* opus_custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047E51B6D0645003B1EF9 /* opus_custom.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		942047E71B6D0645003B1EF9 /* opus_custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047E51B6D0645003B1EF9 /* opus_custom.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		942047E61B6D0645003B1EF9 /* opus_custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047E51B6D0645003B1EF9 /* opus_custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942047E71B6D0645003B1EF9 /* opus_custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047E51B6D0645003B1EF9 /* opus_custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		942047EE1B6D077D003B1EF9 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 942047E81B6D077D003B1EF9 /* http.c */; };
 		942047EF1B6D077D003B1EF9 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 942047E81B6D077D003B1EF9 /* http.c */; };
 		942047F01B6D077D003B1EF9 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 942047E91B6D077D003B1EF9 /* info.c */; };
@@ -417,12 +417,12 @@
 		942047F71B6D077D003B1EF9 /* opusfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 942047EC1B6D077D003B1EF9 /* opusfile.c */; };
 		942047F81B6D077D003B1EF9 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 942047ED1B6D077D003B1EF9 /* stream.c */; };
 		942047F91B6D077D003B1EF9 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 942047ED1B6D077D003B1EF9 /* stream.c */; };
-		942047FE1B6D0797003B1EF9 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FA1B6D0797003B1EF9 /* opus_defines.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		942047FF1B6D0797003B1EF9 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FA1B6D0797003B1EF9 /* opus_defines.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		942048001B6D0797003B1EF9 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FB1B6D0797003B1EF9 /* opus_multistream.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		942048011B6D0797003B1EF9 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FB1B6D0797003B1EF9 /* opus_multistream.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		942048021B6D0797003B1EF9 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FC1B6D0797003B1EF9 /* opus_types.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		942048031B6D0797003B1EF9 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FC1B6D0797003B1EF9 /* opus_types.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		942047FE1B6D0797003B1EF9 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FA1B6D0797003B1EF9 /* opus_defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942047FF1B6D0797003B1EF9 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FA1B6D0797003B1EF9 /* opus_defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942048001B6D0797003B1EF9 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FB1B6D0797003B1EF9 /* opus_multistream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942048011B6D0797003B1EF9 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FB1B6D0797003B1EF9 /* opus_multistream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942048021B6D0797003B1EF9 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FC1B6D0797003B1EF9 /* opus_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942048031B6D0797003B1EF9 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FC1B6D0797003B1EF9 /* opus_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		942048041B6D0797003B1EF9 /* opus.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FD1B6D0797003B1EF9 /* opus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		942048051B6D0797003B1EF9 /* opus.h in Headers */ = {isa = PBXBuildFile; fileRef = 942047FD1B6D0797003B1EF9 /* opus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -1029,19 +1029,19 @@
 				942047901B6D042B003B1EF9 /* mdct.h in Headers */,
 				9420456E1B6CFF3A003B1EF9 /* opusfile.h in Headers */,
 				942048041B6D0797003B1EF9 /* opus.h in Headers */,
-				9420479A1B6D042B003B1EF9 /* os_support.h in Headers */,
-				942048001B6D0797003B1EF9 /* opus_multistream.h in Headers */,
 				942048021B6D0797003B1EF9 /* opus_types.h in Headers */,
 				942047FE1B6D0797003B1EF9 /* opus_defines.h in Headers */,
 				942047E61B6D0645003B1EF9 /* opus_custom.h in Headers */,
 				942045651B6CFF09003B1EF9 /* os_types.h in Headers */,
+				942048001B6D0797003B1EF9 /* opus_multistream.h in Headers */,
+				942045631B6CFF09003B1EF9 /* ogg.h in Headers */,
+				9420479A1B6D042B003B1EF9 /* os_support.h in Headers */,
 				942047DB1B6D046E003B1EF9 /* opus_private.h in Headers */,
 				942047721B6D042B003B1EF9 /* entcode.h in Headers */,
 				942047801B6D042B003B1EF9 /* float_cast.h in Headers */,
 				942046D71B6D03ED003B1EF9 /* PLC.h in Headers */,
 				9420463D1B6D03ED003B1EF9 /* debug.h in Headers */,
 				9420464F1B6D03ED003B1EF9 /* define.h in Headers */,
-				942045631B6CFF09003B1EF9 /* ogg.h in Headers */,
 				942047541B6D042B003B1EF9 /* _kiss_fft_guts.h in Headers */,
 				942047A81B6D042B003B1EF9 /* stack_alloc.h in Headers */,
 				9420478C1B6D042B003B1EF9 /* mathops.h in Headers */,
@@ -1101,18 +1101,19 @@
 			files = (
 				942047911B6D042B003B1EF9 /* mdct.h in Headers */,
 				942048051B6D0797003B1EF9 /* opus.h in Headers */,
+				942048031B6D0797003B1EF9 /* opus_types.h in Headers */,
+				942047FF1B6D0797003B1EF9 /* opus_defines.h in Headers */,
+				942045661B6CFF09003B1EF9 /* os_types.h in Headers */,
+				942048011B6D0797003B1EF9 /* opus_multistream.h in Headers */,
+				942047E71B6D0645003B1EF9 /* opus_custom.h in Headers */,
+				942045641B6CFF09003B1EF9 /* ogg.h in Headers */,
+				9420456F1B6CFF3A003B1EF9 /* opusfile.h in Headers */,
 				9420479B1B6D042B003B1EF9 /* os_support.h in Headers */,
 				942047731B6D042B003B1EF9 /* entcode.h in Headers */,
 				942047811B6D042B003B1EF9 /* float_cast.h in Headers */,
-				942047E71B6D0645003B1EF9 /* opus_custom.h in Headers */,
-				942048011B6D0797003B1EF9 /* opus_multistream.h in Headers */,
-				942048031B6D0797003B1EF9 /* opus_types.h in Headers */,
-				942047FF1B6D0797003B1EF9 /* opus_defines.h in Headers */,
-				942045641B6CFF09003B1EF9 /* ogg.h in Headers */,
 				942046D81B6D03ED003B1EF9 /* PLC.h in Headers */,
 				9420463E1B6D03ED003B1EF9 /* debug.h in Headers */,
 				942046501B6D03ED003B1EF9 /* define.h in Headers */,
-				9420456F1B6CFF3A003B1EF9 /* opusfile.h in Headers */,
 				942047551B6D042B003B1EF9 /* _kiss_fft_guts.h in Headers */,
 				942047A91B6D042B003B1EF9 /* stack_alloc.h in Headers */,
 				942047DC1B6D046E003B1EF9 /* opus_private.h in Headers */,
@@ -1138,7 +1139,6 @@
 				942047AD1B6D042B003B1EF9 /* static_modes_float.h in Headers */,
 				942047F51B6D077D003B1EF9 /* internal.h in Headers */,
 				9420471E1B6D03ED003B1EF9 /* tuning_parameters.h in Headers */,
-				942045661B6CFF09003B1EF9 /* os_types.h in Headers */,
 				9420467E1B6D03ED003B1EF9 /* main_FLP.h in Headers */,
 				942047CC1B6D046E003B1EF9 /* mlp.h in Headers */,
 				942046B81B6D03ED003B1EF9 /* MacroDebug.h in Headers */,
@@ -1569,8 +1569,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"../libopus-src/silk/",
-					"../libogg-src/include/",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1584,8 +1582,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"../libopus-src/silk/",
-					"../libogg-src/include/",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;

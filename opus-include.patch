@@ -1,0 +1,62 @@
+diff -Naur libogg-src.orig/include/ogg/ogg.h libogg-src/include/ogg/ogg.h
+--- libogg-src.orig/include/ogg/ogg.h	2014-05-27 21:52:34.000000000 +0200
++++ libogg-src/include/ogg/ogg.h	2015-08-01 20:45:04.000000000 +0200
+@@ -22,7 +22,7 @@
+ #endif
+ 
+ #include <stddef.h>
+-#include <ogg/os_types.h>
++#include "os_types.h"
+ 
+ typedef struct {
+   void *iov_base;
+diff -Naur libogg-src.orig/src/bitwise.c libogg-src/src/bitwise.c
+--- libogg-src.orig/src/bitwise.c	2014-05-27 21:52:34.000000000 +0200
++++ libogg-src/src/bitwise.c	2015-08-01 20:45:59.000000000 +0200
+@@ -21,7 +21,7 @@
+ #include <string.h>
+ #include <stdlib.h>
+ #include <limits.h>
+-#include <ogg/ogg.h>
++#include "ogg.h"
+ 
+ #define BUFFER_INCREMENT 256
+ 
+diff -Naur libogg-src.orig/src/framing.c libogg-src/src/framing.c
+--- libogg-src.orig/src/framing.c	2014-05-27 21:52:34.000000000 +0200
++++ libogg-src/src/framing.c	2015-08-01 20:46:09.000000000 +0200
+@@ -23,7 +23,7 @@
+ #include <stdlib.h>
+ #include <limits.h>
+ #include <string.h>
+-#include <ogg/ogg.h>
++#include "ogg.h"
+ 
+ /* A complete description of Ogg framing exists in docs/framing.html */
+ 
+diff -Naur libopus-src.orig/src/opus_encoder.c libopus-src/src/opus_encoder.c
+--- libopus-src.orig/src/opus_encoder.c	2013-12-04 23:35:42.000000000 +0100
++++ libopus-src/src/opus_encoder.c	2015-08-01 20:46:45.000000000 +0200
+@@ -47,7 +47,7 @@
+ #ifdef FIXED_POINT
+ #include "fixed/structs_FIX.h"
+ #else
+-#include "float/structs_FLP.h"
++#include "structs_FLP.h"
+ #endif
+ 
+ #define MAX_ENCODER_BUFFER 480
+diff -Naur libopusfile-src.orig/include/opusfile.h libopusfile-src/include/opusfile.h
+--- libopusfile-src.orig/include/opusfile.h	2014-04-29 19:07:09.000000000 +0200
++++ libopusfile-src/include/opusfile.h	2015-08-01 20:44:53.000000000 +0200
+@@ -106,8 +106,8 @@
+ 
+ # include <stdarg.h>
+ # include <stdio.h>
+-# include <ogg/ogg.h>
+-# include <opus_multistream.h>
++# include "ogg.h"
++# include "opus_multistream.h"
+ 
+ /**@cond PRIVATE*/
+ 
