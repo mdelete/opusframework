@@ -19,7 +19,7 @@ Now open the Opus.xcodeproj in the Opus directory. You should know your way form
 
 ### Including The Framework
 
-This framework is not meant to be installed into a system library folder (which doesn't work on iOS anyway) but to be included in an application. To add a "private" framework to your project that gets bundle to your app a few steps are necessary:
+This framework is not meant to be installed into a system library folder (which doesn't work on iOS anyway) but to be included in an application. To add a "private" framework to your project that gets bundled to your app a few steps are necessary:
 
  * Drag the OpusXXX.framework file into your Xcode project, be sure to tick 'Copy Files to Directory'
  * Add a new 'Copy File Build Phase' to the target
