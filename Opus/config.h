@@ -81,7 +81,7 @@
 #define PACKAGE_NAME "opus"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "opus 1.1"
+#define PACKAGE_STRING "opus 1.1.3"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "opus"
@@ -90,7 +90,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.1"
+#define PACKAGE_VERSION "1.1.3"
 
 /* The size of `int', as computed by sizeof. */
 #define SIZEOF_INT 4
